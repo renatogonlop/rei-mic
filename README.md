@@ -1,9 +1,9 @@
 # rei-mic
 
-Dentro da pasta <b>MAIN<b> instale o server:
+Dentro da pasta <b>MAIN</b> instale o server:
 
 
-<b>Criação do server<b>
+<b>Criação do server</b>
 
 npm install express
 npm install cookie-parser
