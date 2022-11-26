@@ -16,6 +16,6 @@ Dentro da pasta <b>MAIN</b> instale o server: <br><br>
 <b>Componentes React</b>
 
 <br><b>npm</b> install antd
+<br><b>npm</b> install redux
 <br><b>npm</b> install react-redux
 <br><b>npm</b> install react-router-dom
-<br><b>npm</b> install redux
