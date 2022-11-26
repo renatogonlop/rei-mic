@@ -1,0 +1,19 @@
+[
+    {
+        "list_idList": "633f9fa0798b61e17286d491",
+        "list_name": "Interface de áudio",
+        "list_description": "Esteja você usando um laptop ou desktop, a MiniFuse funciona para você. PC ou Mac, conecte-a e desfrute de total liberdade de gravação. Melhor ainda, com o aplicativo MiniFuse Control Center, você pode monitorar suas entradas, saídas, configurações e atualizações de firmware em um só lugar. A MiniFuse vem com uma seleção exclusiva de programas que oferecem tudo o que você precisa para dar ao seu som um acabamento profissional.",
+        "list_brand": "Arturia",
+        "list_reference": "Mini Fuse 1",
+        "list_price": 799
+        
+    },
+    {
+        "list_idList": "633f76020bf7ad34402f8175",
+        "list_name": "Microfone Vintage",
+        "list_description": "O TLM 103 NI é o microfone de diafragma largo ideal para todas as aplicações profissionais e semi-profissionais que requerem o melhor em qualidade de som a um preço acessível. Utilizando os circuitos sem transformadores, encontrados em vários microfones Neumann, o TLM-103 NI ainda possui baixíssimo ruído e alto SPL. A cápsula, uma derivação da usada no U-87, possui padrão cardióide, é acusticamente bem balanceada e oferece excelente atenuação dos ruídos vindos da parte de trás.",
+        "list_brand": "Neumann",
+        "list_reference": "TLM 103",
+        "list_price": 8775
+    }
+]
