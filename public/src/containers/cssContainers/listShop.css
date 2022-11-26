@@ -1,0 +1,44 @@
+.buttonNull {
+    border: transparent !important;
+    box-shadow: none;
+    cursor: text !important;
+}
+
+.buttonNull:hover,
+.buttonNull:active,
+.buttonNull:focus {
+    color: black;
+}
+
+.buttonNull[disabled], .ant-btn-text:hover, .ant-btn-text:focus {
+    color: black !important;
+    background-color: transparent !important;
+    ;
+}
+
+
+.imgCard {
+    padding: 10px !important;
+    height: 150px !important;
+    width: 150px !important;
+}
+
+.ant-card-cover{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.boxList{
+    margin-top: 30px !important;
+}
+
+.buttonsCount-container{
+    display: flex !important;
+    justify-content: space-between !important;
+    /* width: 80%; */
+    /* border: 1px solid red !important; */
+}
+
+.buttonsCount{
+    font-weight: bold !important;
+}
