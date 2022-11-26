@@ -13,6 +13,21 @@ Dentro da pasta <b>MAIN</b> instale o server: <br><br>
 
 <br><br><br>
 
-<b>Criação do server</b>
+<b>Componentes React</b>
 
-<b>npm</b> install express
+<b>npm</b> install antd
+<b>npm</b> install react-redux
+<b>npm</b> install react-router-dom
+<b>npm</b> install redux
+<b>npm</b> install 
+<b>npm</b> install 
+<b>npm</b> install 
+<b>npm</b> install 
+<b>npm</b> install 
+<b>npm</b> install 
+<b>npm</b> install 
+<b>npm</b> install 
+<b>npm</b> install 
+<b>npm</b> install 
+<b>npm</b> install 
+<b>npm</b> install 
