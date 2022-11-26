@@ -1,12 +1,12 @@
 # rei-mic
 
-Dentro da pasta <b>MAIN</b> instale o server:
+Dentro da pasta <b>MAIN</b> instale o server: <br><br>
 
 <b>Criação do server</b>
 
-npm install express
-<br>npm install cookie-parser
-<br>npm install cors
-<br>npm install path
-<br>npm install mongoose
-<br>npm install nodemon -D
+<br><b>npm</b> install express
+<br><b>npm</b> install cookie-parser
+<br><b>npm</b> install cors
+<br><b>npm</b> install path
+<br><b>npm</b> install mongoose
+<br><b>npm</b> install nodemon -D
