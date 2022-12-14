@@ -20,7 +20,7 @@ module.exports = {
     },
     async details(req, res) {
         const { _id } = req.params;
-        const product = await productModel.findOne({ _id });
+        const product = await productModel.findById({ _id });
         return res.json(product);
     },
     async delete(req, res) {

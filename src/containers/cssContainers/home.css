@@ -1,0 +1,47 @@
+.buttonNull {
+    border: transparent !important;
+    box-shadow: none;
+    cursor: text !important;
+}
+
+.buttonNull:hover,
+.buttonNull:active,
+.buttonNull:focus {
+    color: black;
+}
+
+.buttonNull[disabled] {
+    color: black !important;
+    background-color: transparent !important;
+    ;
+}
+
+.imgCard {
+    padding: 10px !important;
+    height: 150px !important;
+    width: 150px !important;
+}
+
+.ant-card-cover {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+
+.ant-input-number {
+    border-radius: 50px !important;
+    width: 70px !important;
+}
+
+.ant-input-number-handler-wrap,
+.ant-input-number-handler,
+.ant-input-number-handler-up {
+    border-radius: 80px !important;
+    border-color: transparent !important;
+    margin-right: 3px !important;
+    background-color: transparent !important;
+}
+
+.ant-input-number-input {
+    text-align: center !important;
+}

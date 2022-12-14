@@ -7,12 +7,12 @@ module.exports = {
     },
 
     async create(req, res) {
-        const { list_id, list_name, list_brand, list_reference, list_price, list_quantity, list_class} = req.body;
+        const { list_id, list_name, list_brand, list_reference, list_price, list_totalPrice, list_quantity, list_class } = req.body;
         let data = {};
         let list = await listModel.findOne({ list_reference });
 
         if (!list) {
-            data = { list_id, list_name, list_brand, list_reference, list_price, list_quantity, list_class};
+            data = { list_id, list_name, list_brand, list_reference, list_price, list_totalPrice, list_quantity, list_class };
             list = await listModel.create(data);
             return res.status(200).json(list);
         } else {
@@ -31,11 +31,11 @@ module.exports = {
         const list = await listModel.findByIdAndDelete({ _id });
         return res.json(list);
     },
-    
+
     async update(req, res) {
-        const { list_id, list_name, list_brand, list_reference, list_price, list_quantity, list_class} = req.body;
-        const data = { list_id, list_name, list_brand, list_reference, list_price, list_quantity, list_class};
-        const list = await listModel.findOneAndUpdate({ _id }, data, { new: true });
+        const { _id, list_id, list_name, list_brand, list_reference, list_price, list_totalPrice, list_quantity, list_class } = req.body;
+        const data = { list_id, list_name, list_brand, list_reference, list_price, list_totalPrice, list_quantity, list_class };
+        const list = await listModel.findByIdAndUpdate({ _id }, data, { new: true });
         return res.json(list);
     }
 };

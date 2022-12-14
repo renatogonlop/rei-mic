@@ -7,7 +7,8 @@ const DataSchema = new mongoose.Schema(
         list_brand: String,
         list_reference: String,
         list_price: Number,
-        list_quantity: { type: Number, default: 0 },
+        list_totalPrice: Number,
+        list_quantity: { type: Number, default: 1 },
         list_class: String,
     },
     {

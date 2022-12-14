@@ -2,32 +2,40 @@ const express = require('express');
 
 const routes = express.Router();
 
-const userController = require('./controllers/user.controller');
-const productController = require('./controllers/product.controller');
-const listController = require('./controllers/list.controller');
+const usuario = require('./controllers/user.controller');
+const produto = require('./controllers/product.controller');
+const lista = require('./controllers/list.controller');
+const ind = require('./controllers/ind.controller');
 
-routes.get('/', userController.index);
+routes.get('/', usuario.index);
 
 //user routes
-routes.get('/api/users', userController.index);
-routes.get('/api/users.details/:_id', userController.details);
-routes.post('/api/users', userController.create);
-routes.delete('/api/users/:_id', userController.delete);
-routes.put('/api/users', userController.update);
+routes.get('/api/users', usuario.index);
+routes.get('/api/users.details/:_id', usuario.details);
+routes.post('/api/users', usuario.create);
+routes.delete('/api/users/:_id', usuario.delete);
+routes.put('/api/users', usuario.update);
 
 //product routes
-routes.get('/api/products', productController.index);
-routes.get('/api/products.details/:_id', productController.details);
-routes.post('/api/products', productController.create);
-routes.delete('/api/products/:_id', productController.delete);
-routes.put('/api/products', productController.update);
+routes.get('/api/products', produto.index);
+routes.get('/api/products.details/:_id', produto.details);
+routes.post('/api/products', produto.create);
+routes.delete('/api/products/:_id', produto.delete);
+routes.put('/api/products', produto.update);
 
 //list routes
-routes.get('/api/list', listController.index);
-routes.get('/api/list.details/:_id', listController.details);
-routes.post('/api/list', listController.create);
-routes.delete('/api/list/:_id', listController.delete);
-routes.put('/api/list', listController.update);
+routes.get('/api/list', lista.index);
+routes.get('/api/list.details/:_id', lista.details);
+routes.post('/api/list', lista.create);
+routes.delete('/api/list/:_id', lista.delete);
+routes.put('/api/list', lista.update);
+
+//ind routes
+routes.get('/api/ind', ind.index);
+routes.get('/api/ind.details/:_id', ind.details);
+routes.post('/api/ind', ind.create);
+routes.delete('/api/ind/:_id', ind.delete);
+routes.put('/api/ind', ind.update);
 
 
 module.exports = routes;
